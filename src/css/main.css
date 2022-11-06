@@ -1,0 +1,39 @@
+.box-de-imagens,
+.box-itens,
+.item{
+	width: 50vw;
+	height: 50vh;
+	display: flex;
+}
+
+.box-de-imagens{
+	justify-content: space-between;
+	background-color: black;
+	margin: 20vh auto;
+	border-radius: var(--pattern-border-radius);
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	border: 2px   black;
+}
+
+.box-itens{
+    position: absolute;
+	border-radius: var(--pattern-border-radius);
+	overflow: hidden;
+}
+
+.item{
+	transition: all 0.8s;
+}
+
+.item:first-child{
+	margin-left: -100%;
+}
+
+.item img{
+	width: 50vw;
+	height: 50vh;
+	border-radius: var(--pattern-border-radius);
+}
+
+ 
+
