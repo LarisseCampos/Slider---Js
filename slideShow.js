@@ -1,4 +1,3 @@
-'use strict';
 
 const images = [
     { 'id': '1', 'url':'./src/images/01.jpg' },
